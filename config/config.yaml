@@ -1,0 +1,32 @@
+# OpenAI Configuration
+openai:
+  model: "gpt-4-vision-preview"
+  temperature: 0.7
+  max_tokens: 2000
+
+# Image Processing
+image:
+  max_size: 1024
+  formats:
+    - jpg
+    - png
+    - jpeg
+
+# Video Processing
+video:
+  max_duration: 300  # in seconds
+  formats:
+    - mp4
+    - mov
+    - avi
+
+# Frontend Configuration
+frontend:
+  title: "Agentic AI Advertisement Inserter"
+  theme: "light"
+  max_file_size: 100  # in MB
+
+# Workflow Configuration
+workflow:
+  retry_attempts: 3
+  timeout: 600  # in seconds
